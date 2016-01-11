@@ -126,12 +126,9 @@ endfunction
 :map <C-k> :call TabMove(1)<CR>
 :map <C-a> ggVG
 
-set langmap=йq,цw,уe,кr,еt,нy,гu,шi,щo,зp,х[,ъ],фa,ыs,вd,аf,пg,рh,оj,лk,дl,э',яz,чx,сc,мv,иb,тn,ьm,б\,,ю.,ё`,ЙQ,ЦW,УE,КR,ЕT,НY,ГU,ШI,ЩO,ЗP,Х\{,Ъ\},ФA,ЫS,ВD,АF,ПG,РH,ОJ,ЛK,ДL,Ж\:,Э\",ЯZ,ЧX,СC,МV,ИB,ТN,ЬM,Б\<,Ю\>
-:map <C-s> :%s/\s\+$//
-
 set hlsearch
 nnoremap * *N
-nnoremap <C-F8> :nohlsearch<CR>
+nnoremap ( :nohlsearch<CR>
 vnoremap * y :execute ":let @/=@\""<CR> :execute "set hlsearch"<CR>
 
 set tabpagemax=100
