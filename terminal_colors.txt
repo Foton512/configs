@@ -1,0 +1,2 @@
+text color #D3D7CF
+background color #2E3436
